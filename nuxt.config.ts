@@ -2,11 +2,13 @@
 export default defineNuxtConfig({
   modules: ['@pinia/nuxt'],
   app: {
-    baseURL: '/my-nuxt-app/', // Set the base URL to match your GitHub repository name
+    baseURL: '/my-nuxt-app/', // Correct base URL for GitHub Pages
   },
-
-  // Enable server-side rendering
-  ssr: true,
-
-  compatibilityDate: '2025-04-02'
+  router: {
+    options: {
+      hashMode: true, // Enable hash mode for routing
+    },
+  },
+  // Disable server-side rendering for static deployment
+  ssr: false,
 });
