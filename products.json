@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "Espresso",
+      "status": "Available",
+      "price": 3.5,
+      "category": "Beverages",
+      "date_created": "2025-04-01"
+    },
+    {
+      "id": 2,
+      "name": "Cappuccino",
+      "status": "Available",
+      "price": 4.0,
+      "category": "Beverages",
+      "date_created": "2025-03-28"
+    },
+    {
+      "id": 3,
+      "name": "Latte",
+      "status": "Out of Stock",
+      "price": 4.5,
+      "category": "Beverages",
+      "date_created": "2025-03-30"
+    },
+    {
+      "id": 4,
+      "name": "Mocha",
+      "status": "Available",
+      "price": 5.0,
+      "category": "Beverages",
+      "date_created": "2025-03-25"
+    },
+    {
+      "id": 5,
+      "name": "Americano",
+      "status": "Available",
+      "price": 3.0,
+      "category": "Beverages",
+      "date_created": "2025-03-27"
+    },
+    {
+      "id": 6,
+      "name": "Macchiato",
+      "status": "Available",
+      "price": 4.5,
+      "category": "Beverages",
+      "date_created": "2025-03-29"
+    },
+    {
+      "id": 7,
+      "name": "Flat White",
+      "status": "Out of Stock",
+      "price": 4.0,
+      "category": "Beverages",
+      "date_created": "2025-03-26"
+    },
+    {
+      "id": 8,
+      "name": "Cold Brew",
+      "status": "Available",
+      "price": 3.5,
+      "category": "Beverages",
+      "date_created": "2025-03-24"
+    },
+    {
+      "id": 9,
+      "name": "Iced Latte",
+      "status": "Available",
+      "price": 4.5,
+      "category": "Beverages",
+      "date_created": "2025-03-31"
+    },
+    {
+      "id": 10,
+      "name": "Iced Americano",
+      "status": "Out of Stock",
+      "price": 3.0,
+      "category": "Beverages",
+      "date_created": "2025-03-23"
+    }
+  ]
