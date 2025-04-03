@@ -14,20 +14,27 @@
     </div>
 
     <table>
-      <tr>
-        <th>ID</th>
-        <th>Название</th>
-        <th>Статус</th>
-        <th>Цена</th>
-        <th>Дата создания</th>
-      </tr>
-      <tr v-for="item in filteredItems" :key="item.id">
-        <td>{{ item.id }}</td>
-        <td>{{ item.name }}</td>
-        <td>{{ item.status }}</td>
-        <td>{{ item.price }}</td>
-        <td>{{ item.date_created }}</td>
-      </tr>
+      <!-- Table Header -->
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Название</th>
+          <th>Статус</th>
+          <th>Цена</th>
+          <th>Дата создания</th>
+        </tr>
+      </thead>
+
+      <!-- Table Body -->
+      <tbody>
+        <tr v-for="item in filteredItems" :key="item.id">
+          <td>{{ item.id }}</td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.status }}</td>
+          <td>{{ item.price }}</td>
+          <td>{{ item.date_created }}</td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>
