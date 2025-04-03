@@ -4,11 +4,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/my-nuxt-app/', // Correct base URL for GitHub Pages
   },
-  router: {
-    options: {
-      hashMode: true, // Enable hash mode for routing
-    },
-  },
-  // Disable server-side rendering for static deployment
-  ssr: false,
+  
+  
+  ssr: true,
 });
