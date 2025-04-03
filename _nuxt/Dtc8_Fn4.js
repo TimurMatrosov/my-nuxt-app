@@ -1,0 +1,1 @@
+import{T as t}from"./BL7xWoXG.js";import{t as n,x as o,z as r,v as l}from"./BdoG_ZzQ.js";const u={__name:"index",setup(a){return(s,e)=>(l(),n("div",null,[e[0]||(e[0]=o("h1",null,"Welcome to My Nuxt App",-1)),e[1]||(e[1]=o("p",null,[o("a",{href:"/login"},"Go to Login")],-1)),r(t)]))}};export{u as default};
